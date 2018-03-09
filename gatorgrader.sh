@@ -153,7 +153,7 @@ if [ "$CHECK" = true ]; then
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "<title>Travel Survey</title>" --fragmentcounts 1
+                                     --checkfiles index.html --fragments "<title>" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
@@ -169,11 +169,11 @@ if [ "$CHECK" = true ]; then
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "<label>" --fragmentcounts 6
+                                     --checkfiles index.html --fragments "<label>" --fragmentcounts 5
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "radio" --fragmentcounts 7
+                                     --checkfiles index.html --fragments "radio" --fragmentcounts 5
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
@@ -200,41 +200,11 @@ if [ "$CHECK" = true ]; then
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
-                                     --checkfiles index.html --fragments "css/table.css" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
                                      --checkfiles index.html --fragments "css/emoji.css" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK:
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www \
                                      --checkfiles index.html --fragments "fonts.googleapis.com" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www/css \
-                                     --checkfiles site.css --fragments "font-family: \"Montserrat\", sans-serif;" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www/css \
-                                     --checkfiles site.css --fragments "font-family: \"Roboto Slab\", serif;" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www/css \
-                                     --checkfiles table.css --fragments "nth-child" --fragmentcounts 2
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www/css \
-                                     --checkfiles table.css --fragments "width: 600px;" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK:
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/www/css \
-                                     --checkfiles table.css --fragments "td:hover" --fragmentcounts 1
-  determine_exit_code $?
-  # --> GatorGrader CHECK: the reflection contains at least 5 paragraphs
-  python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 5
-  determine_exit_code $?
-  # --> GatorGrader CHECK: the repository contains at least five commits (update to current + 5)
-  python3 gatorgrader/gatorgrader.py --nowelcome --commits 5
   determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
