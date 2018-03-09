@@ -23,7 +23,7 @@ PROBLEMS?
 # cs103-S2018-practical6-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the starter for Laboratory 7 in Computer Science 103. Since
+repository contains the starter for Practical 6 in Computer Science 103. Since
 the Travis builds for this repository will initially fail (as evidenced by a
 red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
 programmer is responsible for completing all of the steps needed to satisfy the
@@ -32,42 +32,26 @@ the commit logs.
 
 ## Introduction
 
-This assignment requires a programmer to implement a static web site using the
-HTML and CSS programming languages. Specifically, you will leverage a travel
-photography web site from a previous assignment that is an extension of the one
-in Figure 3.9 of the textbook. As in a past assignment, you add an HTML table
-that is styled with another CSS file. Like in your previous assignments, you
-will also style the fonts and HTML elements in your web site with a local CSS
-file. Next, you will add in an HTML form that surveys the user and reports the
-results of the survey to you through an email generated with the
-[Formspree](https://formspree.io/) system. Then, you will run a web server to
-provide local access to the static web site, specifically loading the default
-document, and then complete the survey and check your email for the result.
-Finally, you will continue to practice using the
+This assignment requires a programmer to implement their own static static web
+site using the HTML and CSS programming languages. Specifically, you will create
+your own site that features an HTML form that conducts a survey on a topic of
+your own interest that is suitable for a classroom setting. Like in your
+previous assignments, you will also pick and style the fonts and HTML elements
+in your web site with a local CSS file. Next, you will add in an HTML form that
+surveys the user and reports the results of the survey to you through an email
+generated with the [Formspree](https://formspree.io/) system. Then, you will run
+a web server to provide local access to the static web site, specifically
+loading the default document, and then complete the survey and check your email
+for the result. Finally, you will continue to practice using the
 [HTMLHint](http://htmlhint.com/) static analysis code tool that can check HTML
 files for potential errors.
 
-The programmer is also responsible for writing a reflection, stored in the file
-`writing/reflection.md`, that responds to the questions in the assignment sheet
-and explains the challenges that you faced and the solutions you developed.
-Please note that this is also a Markdown file that must adhere to the standards
-described in the [Markdown Syntax
-Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
-can preview the contents of a comitted Markdown file by clicking on the name of
-the file in your GitHub repository. Finally, don't forget that your
-`writing/reflection.md` file and the file mentioned in the previous paragraph
-should both adhere to the Markdown standards established by the [Markdown
-linting tool](https://github.com/markdownlint/markdownlint) and the writing
-standards set by the [Proselint tool](http://proselint.com/).
-
-The source code in the `index.html` file must also pass additional tests set by
-the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). GatorGrader
-will check to ensure that your main file contains the required header and that,
-for instance, it contains the correct number of `label` tags. Finally,
-GatorGrader will check that your `site.css` and `table.css` files contains the
-required styling rules. GatorGrader will also ensure that you made the
-required number of commits to your repository and that your writing contains
-detailed answers to the stated questions. More details about the GatorGrader
+Please note that, for this practical assignment, the provided source code is, by
+design, very minimal. However, the source code in the `index.html` file must
+also pass additional tests set by the [GatorGrader
+tool](https://github.com/gkapfham/gatorgrader). GatorGrader will check to ensure
+that your main file contains the required header and that, for instance, it
+contains a suitable number of `label` tags. More details about the GatorGrader
 checks are included later in this document and in the assignment sheet.
 
 When you use the `git commit` command to transfer your source code to your
