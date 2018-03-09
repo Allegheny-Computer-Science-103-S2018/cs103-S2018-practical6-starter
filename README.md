@@ -85,9 +85,11 @@ the [Emoji CSS library](https://afeld.github.io/emoji-css/).
 
 To do well on this assignment, you should also review Chapters 1 through 5 of
 the course textbook, paying close attention to Sections 5.3 through 5.5 and, for
-instance, Figures 5.18, 5.19, and 5.20. Please see the course instructor or one
-of the teaching assistants or tutors if you have questions about any of these
-reading assignments.
+instance, Figures 5.18, 5.19, and 5.20. For this assignment, the student is
+responsible for finding and reading the technical materials that they need to
+successfully complete their form-based survey. Please see the course instructor
+or one of the teaching assistants or tutors if you have questions about any of
+these reading assignments.
 
 ## Commands
 
@@ -145,16 +147,6 @@ requirements.
   questions.
 - The GitHub repository must contain at minimum five new commits with
   descriptive messages.
-
-The following image gives you an example of the formatting and content that your
-final web site should exhibit. Specifically, your web site should display the
-provided local image a travel survey, travel tips, and a travel checklist. Make
-sure that your web site uses a CSS file that applies all of the styles that you
-see in the image at the following link. Please note that you should open this
-image in a new browser tab so that you can closely inspect it for the required
-features.
-
-[Example of the Travel Survey Web Site](images/travels.png)
 
 ## Updates
 
