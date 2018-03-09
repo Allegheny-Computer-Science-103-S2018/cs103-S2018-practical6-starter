@@ -20,7 +20,7 @@ PROBLEMS?
 
 -->
 
-# cs103-S2018-lab7-starter
+# cs103-S2018-practical6-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the starter for Laboratory 7 in Computer Science 103. Since
@@ -179,7 +179,7 @@ you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
 ```
-./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-103-S2018/cs103-S2018-lab7-starter.git
+./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-103-S2018/cs103-S2018-practical6-starter.git
 ```
 
 You should only need to type this command once; typing the command additional
@@ -218,8 +218,8 @@ developed for the following software and versions:
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 103 Lab 7
-Starter](https://github.com/Allegheny-Computer-Science-103-S2018/cs103-S2018-lab7-starter)
+you can go to the [Computer Science 103 Practical 6
+Starter](https://github.com/Allegheny-Computer-Science-103-S2018/cs103-S2018-practical6-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you
