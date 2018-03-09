@@ -36,7 +36,6 @@ cache:
 script:
   # Markdown
   - mdl README.md
-  - mdl writing/reflection.md
   - htmlhint src/www/index.html
   # GatorGrader
   - ./gatorgrader.sh --check
