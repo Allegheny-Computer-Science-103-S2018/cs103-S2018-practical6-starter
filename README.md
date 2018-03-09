@@ -86,10 +86,10 @@ the [Emoji CSS library](https://afeld.github.io/emoji-css/).
 To do well on this assignment, you should also review Chapters 1 through 5 of
 the course textbook, paying close attention to Sections 5.3 through 5.5 and, for
 instance, Figures 5.18, 5.19, and 5.20. For this assignment, the student is
-responsible for finding and reading the technical materials that they need to
-successfully complete their form-based survey. Please see the course instructor
-or one of the teaching assistants or tutors if you have questions about any of
-these reading assignments.
+responsible for finding and reading all of the technical materials that they
+need to successfully complete their form-based survey. Please see the course
+instructor or one of the teaching assistants or tutors if you have questions
+about any of these reading assignments.
 
 ## Commands
 
@@ -120,33 +120,22 @@ In addition to making the checks that were previously mentioned in the
 introduction to this document, your final submission must meet the following
 requirements.
 
-- The `index.html` file contains the fragment `<title>Travel Survey</title>`.
+- The `index.html` file contains the fragment `<title>`.
 - The `index.html` file contains the fragment `form action`.
 - The `index.html` file contains the fragment `_next`.
 - The `index.html` file contains the fragment `_replyto`.
-- The `index.html` file contains six of the fragment `<label>`.
-- The `index.html` file contains seven of the fragment `radio`.
-- The `index.html` file contains five of the fragment `checkbox`.
-- The `index.html` file contains the numbers `3` and `80`.
+- The `index.html` file contains at least five of the fragment `<label>`.
+- The `index.html` file contains at least five of the fragment `radio`.
+- The `index.html` file contains at least five of the fragment `checkbox`.
+- The `index.html` file declares `3` rows and `80` columns for a `textarea`.
 - The `index.html` file contains the fragment `submit`.
-- The `index.html` file contains the five of the `em em-` fragment to load an emoji.
+- The `index.html` file contains at least two of the `em em-` fragment to load an emoji.
 - The `index.html` file loads the web fonts from `fonts.googleapis.com`.
-- The `index.html` file loads the three required CSS files.
-- The `site.css` file specifies `font-family: "Merriweather", serif;` for the
-  header font.
-- The `site.css` file specifies `font-family: "Montserrat", sans-serif;` for the
-  body font.
-- The `table.css` file specifies `nth-child` rule two times to control table row
-  backgrounds.
-- The `table.css` file specifies that the table should `600px` in width.
-- The `table.css` file uses the `td:hover` rule to improve user interaction with the
-  table.
-- The `index.html` file creates a table with a format like the provided
-  screenshot.
-- The reflection contains four detailed responses to each of the stated
-  questions.
-- The GitHub repository must contain at minimum five new commits with
-  descriptive messages.
+- The `index.html` file loads at least the two needed CSS files.
+
+Please note that each student is invite to create their own form-based survey
+that meets these basic requirements, ultimately leading to an informative and
+aesthetically pleasing web site that is suitable for a classroom setting.
 
 ## Updates
 
