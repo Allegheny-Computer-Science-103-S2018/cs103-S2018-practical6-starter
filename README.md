@@ -40,9 +40,9 @@ previous assignments, you will also pick and style the fonts and HTML elements
 in your web site with a local CSS file. Next, you will add in an HTML form that
 surveys the user and reports the results of the survey to you through an email
 generated with the [Formspree](https://formspree.io/) system. Then, you will run
-a web server to provide local access to the static web site, specifically
-loading the default document, and then complete the survey and check your email
-for the result. Finally, you will continue to practice using the
+a web server to provide local access to the static web site &mdash; specifically
+loading the default document &mdash; and then complete the survey and check your
+email for the result. Finally, you will continue to practice using the
 [HTMLHint](http://htmlhint.com/) static analysis code tool that can check HTML
 files for potential errors.
 
