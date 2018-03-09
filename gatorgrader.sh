@@ -117,10 +117,6 @@ if [ "$CHECK" = true ]; then
   echo ""
   mdl README.md
   determine_exit_code $? "mdl README.md"
-  mdl writing/reflection.md
-  determine_exit_code $? "mdl reflection.md"
-  proselint writing/reflection.md
-  determine_exit_code $? "proselint reflection.md"
   determine_exit_code $? "htmlhint src/www/index.html"
   htmlhint src/www/index.html
   echo ""
